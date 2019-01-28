@@ -19,6 +19,11 @@ Como compilar os arquivos:
 Na questão 2, após compilar o arquivo, uma nova janela aparecerá com a imagem "pessoas.png", com um retângulo presente no rosto de cada pessoa encontrada. Para fechar a janela, precione a tecla "Alt", caso a janela não feche, precione "Alt + F4"
 
 2.Utilizando YOLO
->     ./darknet detect cfg/yolov3.cfg cfg/yolov3.weights pessoas.jpg
+Entre no diretório /2. Utilizando o YOLO e execute o comando:
+>     wget https://pjreddie.com/media/files/yolov3.weights
 
-Entre no diretório /darknet e execute o comando acima.
+Para executar o código:
+
+>     ./darknet detect cfg/yolov3.cfg yolov3.weights pessoas.jpg
+
+
